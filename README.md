@@ -10,6 +10,8 @@ This is a collection of code in the book CSS Secrets by Lea Verou.
 
 ## Source Code from CSS Secrets Book 
 ### Chapter 2
+- [Multiple Borders](https://dabblet.com/gist/525eb8e9cdade71723c1)
+- [Transclucent Borders](https://dabblet.com/gist/012289cc14106a1bd7a5)
 
 ### Chapter 3
 - [Animated Pie Chart](https://dabblet.com/gist/722909b9808c14eb7300)
