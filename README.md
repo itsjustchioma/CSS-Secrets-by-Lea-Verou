@@ -12,4 +12,6 @@ This is a collection of code in the book CSS Secrets by Lea Verou.
 ### Chapter 2
 
 ### Chapter 3
+- [Animated Pie Chart](https://dabblet.com/gist/722909b9808c14eb7300)
 - [Static Pie Charts](https://dabblet.com/gist/66e1e52ac2a44ad87aa4)
+- [Pie Chart](https://dabblet.com/gist/66e1e52ac2a44ad87aa4)
