@@ -1,4 +1,4 @@
-# CSS-Secrets-by-Lea-Verou
+# CSS Secrets by Lea Verou
 This is a collection of code in the book CSS Secrets by Lea Verou.
 
 ## PDF of the book
