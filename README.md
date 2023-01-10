@@ -1,6 +1,9 @@
 # CSS-Secrets-by-Lea-Verou
 This is a collection of code in the book CSS Secrets by Lea Verou.
 
+## PDF of the book
+Click [here](https://www.pdfdrive.com/css-secrets-better-solutions-to-everyday-web-design-problems-d183796971.html) to download the PDF.
+
 ## My summary of each chapter on Twitter
 - [Chapter 1](https://twitter.com/itsjustchioma/status/1600073928206082048)
 
