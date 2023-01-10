@@ -1,0 +1,42 @@
+/* FOR A HARDCODED VALUE OF 20% ON THE PIE CHART. THE PIE CHART WILL BE GREEN WITH THE BROWN INDICATING THE PERCENTAGE */
+
+/* 1. CREATE THE OUTLINE OF THE PIE CHART */
+.pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* READ THE SEGMENT IN THIS CHAPTER ABOUT FLEXIBLE ELLIPSES*/
+  background: yellowgreen;
+
+  /*2.  WE WILL FIRST START BY COLOR THE LEFT AND RIGHT PART OF THE CIRCLE WITH 2 COLORS, AND THEN USE A ROTATING PSEUDO-ELEMENT TO UNCOVER ONLY THE PERCENTAGE WE NEED */
+  /* TO COLOR THE RIGHT SIDE BROWN, WE USE A SIMPLE LINEAR GRADIENT */
+  background-image: linear-gradient(to right, transparent 50%, #655 0);
+}
+
+/* 3. STYLE THE PSEUDO-ELEMENT THAT WILL ACT AS A MASK. THIS IS BASICALLY AN INVISIBLE RECTANGLE */
+.pie::before {
+  content: "";
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+
+  border-radius: 0 100% 100% 0 / 50%; /* THIS IS TO MAKE IT AN APPROPRIATE SEMI-CIRCLE INSTEAD OF RECTANGLE*/
+  background-color: inherit; /* SINCE WE WANT TO COVER THE BROWN PART OF OUR CIRCLE, WE NEED TO APPLY A GREEN BACKGROUND TO IT TO AVOID DUPLICATION*/
+  transform-origin: left; /* THIS IS TO ENSURE ROTATION AROUND THE CIRCLE'S CENTER, WHICH IS THE MIDDLE OF THE PSEUDO-ELEMENT'S LEFT SIDE*/
+
+  /* 4. TO ACHIEVE 20%, 20% * 360 DEGREES = 72 DEGREES/ 0.2 turn*/
+  /* transform: rotate(0.2turn); */
+  /* FOR PERCENTAGES HIGHER THAN 50%, WE CAN USE AN INVERTED VERSION OF THE PREVIOUS SOLUTION BY CHANGING THE BACKGROUND TO #655 AND TRANSFORM: ROTATE(0.1TURN)*/
+  animation: spin 3s linear infinite, bg 6s step-end infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(0.5turn);
+  }
+}
+
+@keyframes bg {
+  50% {
+    background: #655;
+  }
+}
