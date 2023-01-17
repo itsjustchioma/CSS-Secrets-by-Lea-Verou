@@ -25,4 +25,5 @@ Click [here](https://www.pdfdrive.com/css-secrets-better-solutions-to-everyday-w
 
 ### Chapter 4
 - [Shadow on one side](https://dabblet.com/gist/cc055dadf493c15723cf)
-- [Shadow on two sides](https://dabblet.com/gist/a23e445fca36293d12f6)
+- [Shadow on two opposite sides](https://dabblet.com/gist/a23e445fca36293d12f6)
+- [Shadow on two adjacent sides](https://dabblet.com/gist/d29d19ab66177b18bd64)
