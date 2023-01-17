@@ -9,7 +9,9 @@ Click [here](https://www.pdfdrive.com/css-secrets-better-solutions-to-everyday-w
 
 - [Chapter 2](https://twitter.com/itsjustchioma/status/1610345662175903744)
 
-- [Chapter 3]()
+- [Chapter 3](https://twitter.com/itsjustchioma/status/1612727627692785664)
+
+- [Chapter 4]()
 
 ## Source Code from CSS Secrets Book 
 ### Chapter 2
@@ -20,3 +22,7 @@ Click [here](https://www.pdfdrive.com/css-secrets-better-solutions-to-everyday-w
 - [Animated Pie Chart](https://dabblet.com/gist/722909b9808c14eb7300)
 - [Static Pie Charts](https://dabblet.com/gist/66e1e52ac2a44ad87aa4)
 - [Pie Chart](https://dabblet.com/gist/66e1e52ac2a44ad87aa4)
+
+### Chapter 4
+- [Shadow on one side](https://dabblet.com/gist/cc055dadf493c15723cf)
+- [Shadow on two sides](https://dabblet.com/gist/a23e445fca36293d12f6)
